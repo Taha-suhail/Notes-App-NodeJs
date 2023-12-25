@@ -29,3 +29,7 @@ $ npm start
 ### Delete or Update Note
 ![Screenshot 2023-12-25 141659](https://github.com/Taha-suhail/Notes-App-NodeJs/assets/96725175/f36ee408-cbc8-4b2a-ad94-7f6d787f9c39)
 
+# References
+[PassportJs](https://www.passportjs.org/packages/passport-google-oauth20/)
+[Bootstrap](https://getbootstrap.com/)
+[Google Developer Console](https://console.cloud.google.com/)
