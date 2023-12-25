@@ -1,13 +1,21 @@
-<h1>you need:</h1>
-<br>
-<ul>
-  <li>Database (MongoDB)</li>
-  <li>Google console account to create  the API auth Key</li>
-</ul>
-<h1>Create .env file and store your credentials</h1>
-<h3>To Install and run this program - install dependencies using npm and then start your server:</h3>
+## You need:
+- Database (MongoDB)
+- Google Console Account to create the API Auth Key's
+
+## Create .env file
+Create a .env file to store your credentials. Example below:
+
 ```
-function test() {
-  console.log("notice the blank line before this function?");
-}
+MONGODB_URI = mongodb+srv://<username>:<password>@mongodburlhere
+GOOGLE_CLIENT_ID= YOUR_GOOGLE_ID_HERE
+GOOGLE_CLIENT_SECRET= YOUR_GOOGLE_CLIENT_SECRET_HERE
+GOOGLE_CALLBACK_URL=http://localhost:5000/google/callback
+```
+
+## Installation
+To install and run this project - install dependencies using npm and then start your server:
+
+```
+$ npm install
+$ npm start
 ```
