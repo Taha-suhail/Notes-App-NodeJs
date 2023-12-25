@@ -1,0 +1,23 @@
+<div class="container-fluid container-fluid-custom pb-5 mb-5">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="/dashboard">Dashboard</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Search</li>
+        </ol>
+      </nav>
+    <div class="row">
+      <% if(searchResults != '') { %>
+        <% searchResults.forEach(function (note, index) { %>
+          
+          <a href="/dashboard/item/<%= note._id %>">
+          <h4><%= note.title %></h4>
+          </a>
+  
+        <% }) %>
+      <% } else { %>
+        <p>No items found.</p>
+      <% } %>
+  
+    </div>
+  
+  </div>
