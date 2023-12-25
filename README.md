@@ -7,6 +7,7 @@
 <h1>Create .env file and store your credentials</h1>
 <h3>To Install and run this program - install dependencies using npm and then start your server:</h3>
 ```
-npm install
-npm start
+function test() {
+  console.log("notice the blank line before this function?");
+}
 ```
